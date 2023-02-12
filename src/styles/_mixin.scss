@@ -1,0 +1,11 @@
+@mixin respond ($breakpoint){
+    @if($breakpoint == mobile) {
+        @media (max-width:480px){@content};
+    }
+    @if($breakpoint == table) {
+        @media (max-width:768px){@content};
+    }
+    @if($breakpoint == desktop) {
+        @media (min-width:1024px){@content};
+    }
+}

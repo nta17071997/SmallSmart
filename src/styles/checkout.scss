@@ -1,0 +1,41 @@
+
+.billing_form{
+    
+    input{
+        width: 100%;
+        border: none;
+        border: 1px solid rgba(128, 128, 128, 0.534);
+        outline: none;
+        padding: 8px 10px;
+        margin-bottom: 15px;
+    }
+}
+.checkout_cart{
+    padding: 20px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+
+    h6, h4{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    h6{
+        
+    }
+    
+    h4{
+        border: 1px solid gray;
+        padding: 10px ;
+        background: #4657cfbf;
+        margin-top: 40px;
+    }
+    button{
+        background-color: #fff;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        width: 100%;
+    }
+}

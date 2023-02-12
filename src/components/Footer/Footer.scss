@@ -1,0 +1,49 @@
+.footer{
+    background: var(--primary-color);
+    padding: 40px 0 20px 0;
+    .logo{
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+        img{
+            width: 35px;
+            height: 35px;
+        }
+        h1{
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-color);
+        }            
+    }
+    .footer_text{
+        line-height: 30px;
+        color: #666;
+    }
+    .footer_quick-links  {
+        h4.quick_links-title {
+            color: white;
+            font-size: 18px;
+            margin: 20px 0;
+        }
+      .listGroup{
+        --bs-list-group-bg: none ;
+        .listGroupItem{
+            display: flex;
+           
+            column-gap: 10px;
+            background: transparent !important;
+            a,i,p {
+                color:white !important;
+            }
+            i{
+                font-size: 20px;
+            }
+            p{
+                font-size: 14px;
+                color: rgb(146, 146, 146);
+                line-height: 30px;
+            }
+        }
+      }
+    }
+}

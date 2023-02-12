@@ -1,0 +1,28 @@
+.services{
+    .service_item{
+        background-color: var(--card-bg-01);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        i{
+            font-size: 34px;
+            background: var(--primary-color);
+            padding: 10px;
+            border-radius: 50px;
+            color: white;
+            font-weight: 400;
+        }
+        h3{
+            color:  var(--primary-color);
+            font-size: 18px;
+            font-weight: 600;
+        }p{
+            font-size: 14px;
+            margin-top: 5px;
+            color: #222;
+        }
+    }
+}
